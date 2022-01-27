@@ -1,48 +1,24 @@
-.form {
+.home-wrapper {
+    background: url(https://mylovemonster.com/presale/background.jpg);
     width: 100%;
-    max-width: 375px;
-    height: fit-content;
+    height: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 30px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    border-radius: 4px;
-    border: 1px solid #333;
     align-items: center;
-    padding: 30px 20px;
-    gap: 20px;
 }
 
-.form-group {
-    display: flex;
+.img-wrapper {
     width: 100%;
-    height: fit-content;
-    align-items: center;
-}
-
-.control-label {
-    font-size: 16px;
-    color: black;
-    width: 80px;
-}
-
-.input {
-    flex: 1;
-    height: 40px;
-    padding: 5px 10px;
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    outline: none;
-    box-shadow: none;
-    border-color: wheat;
-}
-
-.btn {
-    width: 100px;
-    height: 40px;
-    border-radius: 8px;
-    background: rgb(56, 73, 231);
-    color: white;
-    display: flex;
+    max-width: 400px;
     align-items: center;
     justify-content: center;
+    display: flex;
+}
+.img-wrapper img {
+    width: 100%;
+    display: block;
 }
